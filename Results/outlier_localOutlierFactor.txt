@@ -1,0 +1,23 @@
+Time taken to load data: 0.021
+Time taken to merge data: 0.007
+Time taken to process data: 0.035
+Number of instances: 1000
+Number of features: 27
+Number of  Positive/Negative class instances: 300/700
+0 Outliers to be removed: (array([], dtype=int64),)
+Quality Score (Outliers): 1.0
+
+Evaluating Models...
+Model: AdaBoost_RENN, Avg Score: 0.668 (+/- 0.102), Time Taken: 34.73s
+Model: Linear-SVM_RENN, Avg Score: 0.695 (+/- 0.107), Time Taken: 1.09s
+Model: RBF-SVM_RENN, Avg Score: 0.668 (+/- 0.113), Time Taken: 1.04s
+Model: D-Tree_RENN, Avg Score: 0.645 (+/- 0.14), Time Taken: 0.74s
+Model: R-Forest_RENN, Avg Score: 0.696 (+/- 0.104), Time Taken: 11.2s
+Model: QDA_RENN, Avg Score: 0.679 (+/- 0.106), Time Taken: 0.74s
+Model: LDA_RENN, Avg Score: 0.709 (+/- 0.11), Time Taken: 0.82s
+Model: MLP_RENN, Avg Score: 0.681 (+/- 0.089), Time Taken: 20.84s
+Model: GaussNB_RENN, Avg Score: 0.688 (+/- 0.087), Time Taken: 0.79s
+Model: LogReg_RENN, Avg Score: 0.709 (+/- 0.103), Time Taken: 0.73s
+Model: Ridge_RENN, Avg Score: 0.707 (+/- 0.107), Time Taken: 0.77s
+Model: Dummy(1)_RENN, Avg Score: 0.682 (+/- 0.0), Time Taken: 0.72s
+Model: Dummy(0)_RENN, Avg Score: 0.0 (+/- 0.0), Time Taken: 0.71s

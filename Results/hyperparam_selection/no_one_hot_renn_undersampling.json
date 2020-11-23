@@ -1,0 +1,270 @@
+{
+    "split_0": {
+        "Score": {
+            "AdaBoost": 0.698005698005698,
+            "Linear-SVM": 0.7062146892655367,
+            "RBF-SVM": 0.6875,
+            "D-Tree": 0.6338028169014085,
+            "R-Forest": 0.7246376811594203,
+            "QDA": 0.708092485549133,
+            "MLP": 0.7142857142857143
+        },
+        "Best_Params": {
+            "AdaBoost": {
+                "n_estimators": 300
+            },
+            "Linear-SVM": {
+                "C": 0.01
+            },
+            "RBF-SVM": {
+                "C": 10,
+                "gamma": 3
+            },
+            "D-Tree": {
+                "criterion": "gini",
+                "max_depth": 15,
+                "min_samples_leaf": 1
+            },
+            "R-Forest": {
+                "max_depth": 10,
+                "max_features": 12,
+                "n_estimators": 300
+            },
+            "QDA": {
+                "reg_param": 0.5
+            },
+            "MLP": {
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    50,
+                    100,
+                    50
+                ],
+                "max_iter": 1000
+            }
+        },
+        "Computation_time": {
+            "AdaBoost": 5.390103964000001,
+            "Linear-SVM": 0.4405030209999996,
+            "RBF-SVM": 0.29713638600000003,
+            "D-Tree": 0.44268385699999957,
+            "R-Forest": 11.473961726,
+            "QDA": 0.06997158200000086,
+            "MLP": 4.235149816
+        }
+    },
+    "split_1": {
+        "Score": {
+            "AdaBoost": 0.6963788300835656,
+            "Linear-SVM": 0.7104557640750672,
+            "RBF-SVM": 0.6716417910447761,
+            "D-Tree": 0.6438356164383562,
+            "R-Forest": 0.6767955801104971,
+            "QDA": 0.6629834254143647,
+            "MLP": 0.6854838709677419
+        },
+        "Best_Params": {
+            "AdaBoost": {
+                "n_estimators": 300
+            },
+            "Linear-SVM": {
+                "C": 0.01
+            },
+            "RBF-SVM": {
+                "C": 10,
+                "gamma": 3
+            },
+            "D-Tree": {
+                "criterion": "gini",
+                "max_depth": 10,
+                "min_samples_leaf": 9
+            },
+            "R-Forest": {
+                "max_depth": 10,
+                "max_features": 12,
+                "n_estimators": 500
+            },
+            "QDA": {
+                "reg_param": 0.5
+            },
+            "MLP": {
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    100
+                ],
+                "max_iter": 1000
+            }
+        },
+        "Computation_time": {
+            "AdaBoost": 2.4723365779999966,
+            "Linear-SVM": 0.8091415429999991,
+            "RBF-SVM": 0.30540975700000317,
+            "D-Tree": 0.45957233699999733,
+            "R-Forest": 12.911147260000003,
+            "QDA": 0.043061062999996125,
+            "MLP": 5.5313305700000015
+        }
+    },
+    "split_2": {
+        "Score": {
+            "AdaBoost": 0.6967213114754097,
+            "Linear-SVM": 0.6849315068493151,
+            "RBF-SVM": 0.7213930348258707,
+            "D-Tree": 0.7534246575342465,
+            "R-Forest": 0.776566757493188,
+            "QDA": 0.712468193384224,
+            "MLP": 0.7336956521739131
+        },
+        "Best_Params": {
+            "AdaBoost": {
+                "n_estimators": 300
+            },
+            "Linear-SVM": {
+                "C": 0.01
+            },
+            "RBF-SVM": {
+                "C": 10,
+                "gamma": 3
+            },
+            "D-Tree": {
+                "criterion": "gini",
+                "max_depth": 5,
+                "min_samples_leaf": 1
+            },
+            "R-Forest": {
+                "max_depth": 10,
+                "max_features": 4,
+                "n_estimators": 500
+            },
+            "QDA": {
+                "reg_param": 0.5
+            },
+            "MLP": {
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    50,
+                    100,
+                    50
+                ],
+                "max_iter": 1000
+            }
+        },
+        "Computation_time": {
+            "AdaBoost": 2.6238987330000043,
+            "Linear-SVM": 0.559412358000003,
+            "RBF-SVM": 0.3020537040000022,
+            "D-Tree": 0.5115343439999975,
+            "R-Forest": 13.372385039000001,
+            "QDA": 0.04356850900000353,
+            "MLP": 4.5437823049999935
+        }
+    },
+    "split_3": {
+        "Score": {
+            "AdaBoost": 0.6647398843930636,
+            "Linear-SVM": 0.6818181818181818,
+            "RBF-SVM": 0.6892230576441102,
+            "D-Tree": 0.6686046511627908,
+            "R-Forest": 0.6578947368421053,
+            "QDA": 0.5873493975903615,
+            "MLP": 0.6502890173410405
+        },
+        "Best_Params": {
+            "AdaBoost": {
+                "n_estimators": 300
+            },
+            "Linear-SVM": {
+                "C": 0.001
+            },
+            "RBF-SVM": {
+                "C": 1,
+                "gamma": 3
+            },
+            "D-Tree": {
+                "criterion": "gini",
+                "max_depth": 5,
+                "min_samples_leaf": 19
+            },
+            "R-Forest": {
+                "max_depth": 10,
+                "max_features": 4,
+                "n_estimators": 100
+            },
+            "QDA": {
+                "reg_param": 0.1
+            },
+            "MLP": {
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    100
+                ],
+                "max_iter": 1000
+            }
+        },
+        "Computation_time": {
+            "AdaBoost": 2.788179045000007,
+            "Linear-SVM": 1.0357730819999915,
+            "RBF-SVM": 0.3544146710000007,
+            "D-Tree": 0.49673992400001055,
+            "R-Forest": 13.370097322999996,
+            "QDA": 0.05038143999999534,
+            "MLP": 5.679968158999998
+        }
+    },
+    "split_4": {
+        "Score": {
+            "AdaBoost": 0.7044198895027625,
+            "Linear-SVM": 0.7125890736342042,
+            "RBF-SVM": 0.6982543640897755,
+            "D-Tree": 0.6843575418994414,
+            "R-Forest": 0.7513661202185793,
+            "QDA": 0.7123655913978494,
+            "MLP": 0.739247311827957
+        },
+        "Best_Params": {
+            "AdaBoost": {
+                "n_estimators": 600
+            },
+            "Linear-SVM": {
+                "C": 0.01
+            },
+            "RBF-SVM": {
+                "C": 10,
+                "gamma": 3
+            },
+            "D-Tree": {
+                "criterion": "entropy",
+                "max_depth": 10,
+                "min_samples_leaf": 9
+            },
+            "R-Forest": {
+                "max_depth": 20,
+                "max_features": 4,
+                "n_estimators": 100
+            },
+            "QDA": {
+                "reg_param": 0.5
+            },
+            "MLP": {
+                "alpha": 0.001,
+                "hidden_layer_sizes": [
+                    100,
+                    200,
+                    100
+                ],
+                "max_iter": 1000
+            }
+        },
+        "Computation_time": {
+            "AdaBoost": 3.1860589300000015,
+            "Linear-SVM": 0.840575011999988,
+            "RBF-SVM": 0.3224085660000071,
+            "D-Tree": 0.47174784300000283,
+            "R-Forest": 13.247745694999992,
+            "QDA": 0.0518488179999963,
+            "MLP": 4.635339506999998
+        }
+    }
+}
+
+{'AdaBoost': 0.6920531226920998, 'Linear-SVM': 0.699201843128461, 'RBF-SVM': 0.6936024495209064, 'D-Tree': 0.6768050567872486, 'R-Forest': 0.717452175164758, 'QDA': 0.6766518186671866, 'LDA': 0.0, 'MLP': 0.7046003133192734, 'GaussNB': 0.0, 'LogReg': 0.0, 'Ridge': 0.0, 'XGBoost': 0.0, 'Dummy(1)': 0.0, 'Dummy(0)': 0.0}
